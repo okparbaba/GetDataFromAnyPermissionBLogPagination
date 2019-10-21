@@ -10,8 +10,8 @@ import retrofit2.http.Url
 object BloggerAPI {
 
     val key = "[YourApiKey]"
-    val url = "http://pyapyapyar.blogspot.com/feeds/posts/"
-    //val url = "https://www.googleapis.com/blogger/v3/blogs/[YourBlogId]/posts/"
+    val url = "http://[YourBlogAddress].blogspot.com/feeds/posts/"
+
 
     var postService: PostService? = null
 
